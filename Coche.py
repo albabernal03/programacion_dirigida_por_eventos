@@ -44,5 +44,4 @@ def llenar_deposito(coche):
         print("Coche " + str(coche.id) + " sale de la gasolinera")
         gasolinera.cola_cajas.remove(coche)
         print("Coche " + str(coche.id) + " sale de la cola de la caja")
-        print('El covhe ' + str(coche.id) + ' ha tardado ' + str(coche.tiempo_total) + ' segundos en llenar el deposito y pagar')
-        
+        print('El coche ' + str(coche.id) + ' ha tardado ' + str(coche.tiempo_total) + ' segundos en llenar el deposito y pagar')
