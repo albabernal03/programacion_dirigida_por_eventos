@@ -1,8 +1,5 @@
-from multiprocessing import Pool
-from time import sleep
-import time
-import random
-from Sur import *
+from Sur import Surtidor
+
 
 class Gasolinera:
     def __init__(self, n):

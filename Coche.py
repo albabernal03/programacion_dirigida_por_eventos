@@ -1,4 +1,6 @@
-from Ga import *
+from Gaso import *
+from Sur import *
+
 
 class Coche:
     def __init__(self, id):
