@@ -1,5 +1,12 @@
 from Gaso import *
 from Sur import *
+from Coche import *
+from multiprocessing import Pool
+from time import sleep
+import time
+import random
+
+gasolinera = Gasolinera(1)
 
 
 class Coche:
