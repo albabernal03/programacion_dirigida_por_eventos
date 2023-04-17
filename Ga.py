@@ -2,7 +2,7 @@ from multiprocessing import Pool
 from time import sleep
 import time
 import random
-from Surtidor import *
+from Sur import *
 
 class Gasolinera:
     def __init__(self, n):
